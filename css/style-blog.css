@@ -46,16 +46,44 @@ a{
     color: rgb(0, 0, 0);
 }
 .header{
-    display: flex;
+    text-align: center;
+    padding: 5px 0px;
+    box-shadow: 0 10px 10px -6px rgb(173, 173, 173);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin: -7px -6px;
 }
 .header-list{
+    justify-content: center;
     display: flex;
 }
 .header-text{
     list-style-type: none;
     margin: 0px 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+}
+.header-text:hover{
+    background-color: rgb(245, 245, 245);
 }
 
+.header-sub a{
+    color: rgb(255, 255, 255);
+}
+.header-sub{
+    background-color: #98c2e7;
+    margin: 10px 0px;
+    padding: 5px 0px;
+    border-radius: 20px;
+}
+/*--------------------------------
+main
+---------------------------------*/
+.list{
+    justify-content: center;
+    align-items: center;
+}
 /*--------------------------------
 スマホ
 ---------------------------------*/
