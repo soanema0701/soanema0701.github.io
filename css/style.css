@@ -68,7 +68,10 @@ link
 .link{
     font-family: 'Noto Sans JP';
     align-items: center;
-    padding: 200px 50px;
+    padding: 100px 50px;
+    box-shadow: 0 10px 10px -6px rgba(0,0,0,.1);
+    margin: 0px 1vw;
+    border-radius: 20px;
 }
 .link-title{
     text-align: center;
