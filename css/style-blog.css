@@ -47,11 +47,11 @@ a{
 }
 .header{
     text-align: center;
-    padding: 5px 0px;
     box-shadow: 0 10px 10px -6px rgb(173, 173, 173);
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     margin: -7px -6px;
+    padding: 5px 0px;
 }
 .header-list{
     justify-content: center;
@@ -59,15 +59,15 @@ a{
 }
 .header-text{
     list-style-type: none;
-    margin: 0px 20px;
     background-color: #fff;
+    margin: 0px 10px;
     padding: 10px;
     border-radius: 15px;
 }
 .header-text:hover{
-    background-color: rgb(245, 245, 245);
+    font-size: 20px;
+    background-color: rgb(218, 218, 218);
 }
-
 .header-sub a{
     color: rgb(255, 255, 255);
 }
@@ -83,6 +83,30 @@ main
 .list{
     justify-content: center;
     align-items: center;
+}
+/*--------------------------------
+footer
+---------------------------------*/
+.footer a{
+    color: black;
+}
+.footer{
+    box-shadow: 0 -10px 10px -6px rgb(212, 212, 212);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 5px 0px;
+}
+.footer-title{
+    margin: 20px 30px;
+    font-size: 20px;
+}
+.footer-text-list{
+    display: flex;
+    position: ;
+}
+.footer-text{
+    margin: 0px 10px;
+    font-size: 14px;
 }
 /*--------------------------------
 スマホ
