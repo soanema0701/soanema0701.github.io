@@ -21,6 +21,7 @@ a{
 }
 .page{
     padding: 20px 0%;
+    font-family: 'Noto Sans JP';
   }
 /*--------------------------------
  header
@@ -50,8 +51,7 @@ mv
 ---------------------------------*/
 .mv {
     text-align: center;
-    font-family: 'Noto Sans JP';
-    padding: 200px 0px;
+    padding: 30vh;
 }
 .mv-title{
     font-size: 40px;
@@ -66,16 +66,17 @@ link
     color:rgb(0, 0, 0);
 }
 .link{
-    font-family: 'Noto Sans JP';
     align-items: center;
-    padding: 100px 50px;
-    box-shadow: 0 10px 10px -6px rgba(0,0,0,.1);
-    margin: 0px 1vw;
+    padding: 10vh 2vh;
+    box-shadow: 0 -10px 100px -6px rgba(0,0,0,.1);
+    margin: 15vh 10px;
     border-radius: 20px;
 }
 .link-title{
-    text-align: center;
-    font-size: 32px;
+    padding: 0px 0px 20px 50px;
+    margin-top: -5vh;
+    font-size: 25px;
+    letter-spacing: 2px;
 }
 .link-list{
     display: flex; 
@@ -100,28 +101,63 @@ link
 about
 ---------------------------------*/
 .about{
-    font-family: 'Noto Sans JP';
+    padding: 50px 0px;
+}
+.about-title{
+    font-size: 25px;
+    padding: 0px 0px 20px 60px;
+    letter-spacing: 2px;
+}
+.about a{
+    color: rgb(255, 255, 255);
+}
+.about-text-box{
+    display: flex;
+    justify-content: space-around;
+}
+.about-text{
+    padding-right: 20px;
+    width: 35em;
+}
+.about-link-text{
     text-align: center;
+    background: linear-gradient(135deg, #4fa4d6, #43c98a);
+    width: 200px;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+.about-link-text:hover{
+    opacity: 0.7;
 }
 /*--------------------------------
 contact
 ---------------------------------*/
 .contact{
-    font-family: 'Noto Sans JP';
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    padding: 200px 0px;
+    padding: 50px 0px;
 }
 .contact-title{
-    font-size: 32px;
+    font-size: 25px;
+    padding: 0px 0px 20px 60px;
+    letter-spacing: 2px;
 }
 .contact a{
     color: rgb(255, 255, 255);
 }
+.contact-text-box{
+    display: flex;
+    justify-content: space-around;
+}
+.contact-text{
+    padding-right: 20px;
+    width: 35em;
+}
 .contact-link-text{
-    background-color: rgb(61, 61, 61);
+    text-align: center;
+    background: linear-gradient(135deg, #bdd64f, #5b43c9);
     width: 200px;
     padding: 10px 0px;
     border-radius: 10px;
+}
+.contact-link-text:hover{
+    opacity: 0.7;
 }
